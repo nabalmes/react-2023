@@ -1,0 +1,173 @@
+[
+	{
+		"id": 1,
+		"codename": "project1",
+		"name": "IntegrityNet",
+		"alias": "iNet",
+		"description": "A company website that showcases all their solutions and services.",
+		"tag": "web",
+		"year": "2022",
+		"icon": "icon1",
+		"thumb": "/work/project1.webp",
+		"images": [
+			"image1",
+			"image2",
+			"image3",
+			"image4",
+			"image5"
+		],
+		"link": "https://www.integritynet.biz/"
+	},
+	{
+		"id": 2,
+		"codename": "project2",
+		"name": "IntegrityBPO",
+		"alias": "BPO",
+		"description": "A marketing website for the company business process outsourcing industry",
+		"tag": "web",
+		"year": "2022",
+		"icon": "icon2",
+		"thumb": "/work/project2.webp",
+		"images": [
+			"image1",
+			"image2",
+			"image3",
+			"image4",
+			"image5"
+		],
+		"link": "https://www.integritybpo.com/"
+	},
+	{
+		"id": 3,
+		"codename": "project3",
+		"name": "IntegrityPBX",
+		"alias": "PBX",
+		"description": "A product website to showcase their services in private branch exchange phone system.",
+		"tag": "web",
+		"year": "2022",
+		"icon": "icon3",
+		"thumb": "/work/project3.webp",
+		"images": [
+			"image1",
+			"image2",
+			"image3",
+			"image4",
+			"image5"
+		],
+		"link": "https://www.integritypbx.net/"
+	},
+	{
+		"id": 4,
+		"codename": "project4",
+		"name": "IntegrityPCI",
+		"alias": "PCI",
+		"description": "A service website for the company's Payment Card Industry Data Security Standard.",
+		"tag": "web",
+		"year": "2022",
+		"icon": "icon4",
+		"thumb": "/work/project4.webp",
+		"images": [
+			"image1",
+			"image2",
+			"image3",
+			"image4",
+			"image5"
+		],
+		"link": "https://www.integritypci.com/"
+	},
+	{
+		"id": 5,
+		"codename": "project5",
+		"name": "Events",
+		"alias": "Share Events",
+		"description": "A website application to showcase Events Halls and for users to reserve for their events.",
+		"tag": "web",
+		"year": "2022",
+		"icon": "icon5",
+		"thumb": "/work/project5.webp",
+		"images": [
+			"image1",
+			"image2",
+			"image3",
+			"image4",
+			"image5"
+		],
+		"link": "https://events.sharecafe.ph/"
+	},
+	{
+		"id": 6,
+		"codename": "project6",
+		"name": "Pudding",
+		"alias": "Pudding",
+		"description": "Pudding provides dependable solutions to safeguard industries and their assets.",
+		"tag": "web",
+		"year": "2022",
+		"icon": "icon6",
+		"thumb": "/work/project6.webp",
+		"images": [
+			"image1",
+			"image2",
+			"image3",
+			"image4",
+			"image5"
+		],
+		"link": "https://pudding.ws/"
+	},
+	{
+		"id": 7,
+		"codename": "project7",
+		"name": "Luks Lofts Hotel",
+		"alias": "Luks",
+		"description": "A marketing website for a luxurious website in Philippines.",
+		"tag": "web",
+		"year": "2022",
+		"icon": "icon7",
+		"thumb": "/work/project7.webp",
+		"images": [
+			"image1",
+			"image2",
+			"image3",
+			"image4",
+			"image5"
+		],
+		"link": "https://lukslofts.com/"
+	},
+	{
+		"id": 8,
+		"codename": "project8",
+		"name": "Zumumu",
+		"alias": "Zumumu",
+		"description": "Secured Trusted Solutions",
+		"tag": "web",
+		"year": "2022",
+		"icon": "icon8",
+		"thumb": "/work/project8.webp",
+		"images": [
+			"image1",
+			"image2",
+			"image3",
+			"image4",
+			"image5"
+		]
+	},
+
+	{
+		"id": 12,
+		"codename": "project12",
+		"name": "ID Alibi Links",
+		"alias": "ID Alibi Device Apps",
+		"description": "Links for the device Apps",
+		"tag": "web",
+		"year": "2023",
+		"icon": "icon9",
+		"thumb": "/work/project13.webp",
+		"images": [
+			"image1",
+			"image2",
+			"image3",
+			"image4",
+			"image5"
+		],
+		"link": "https://links.idalibi.com/"
+	}
+]
