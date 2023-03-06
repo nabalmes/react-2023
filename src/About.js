@@ -20,7 +20,7 @@ const About = () => {
   const MyName = "Neil Adrian C. Balmes"
 
   return (
-    <div className='pb-24'>
+    <div className='pb-24 pt-24'>
       <div className="flex justify-center flex-wrap-reverse gap-4 mb-8">
         <div className='max-w-sm'>
           <h2 className="text-center text-3xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl md:text-left">About Me</h2>
@@ -112,7 +112,7 @@ const About = () => {
                 Wanna work together for something great or just wanna say hello?
               </p>
               <div className='text-center'>
-                <a href='https://mail.google.com/mail/u/?authuser=lemvee11@gmail.com' className='text-center'>
+                <a href='https://mail.google.com/mail/u/?authuser=neilbalmes4200@gmail.com' className='text-center'>
                   <button className="h-10 px-6 font-semibold rounded-md bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white" >
                     Say Hi!
                   </button>
