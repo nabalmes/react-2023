@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.820615b3.css",
+    "main.js": "/static/js/main.6b3c949b.js",
+    "static/media/NAB-resume.pdf": "/static/media/NAB-resume.3a3e603da34e35c13cdd.pdf",
+    "static/media/ME.webp": "/static/media/ME.76fd4919739ea6516bb1.webp",
+    "static/media/NAB-logo-dark.svg": "/static/media/NAB-logo-dark.17ea6cd79c0d49ded839422dfa757b4d.svg",
+    "index.html": "/index.html",
+    "main.820615b3.css.map": "/static/css/main.820615b3.css.map",
+    "main.6b3c949b.js.map": "/static/js/main.6b3c949b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.820615b3.css",
+    "static/js/main.6b3c949b.js"
+  ]
+}
