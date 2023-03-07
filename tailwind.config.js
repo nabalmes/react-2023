@@ -31,7 +31,7 @@ module.exports = {
       },
       boxShadow: {
         'work-hover-light': '0px 5px 5px -3px rgba(0, 0, 0, .1), 0px 8px 8px 1px rgba(0, 0, 0, .07), 0px 3px 8px 2px rgba(0, 0, 0, .08), 0px 0px 0px 2px #06b6d4',
-        'work-hover-dark': '0px 5px 5px -3px rgba(0, 0, 0, .1), 0px 8px 8px 1px rgba(0, 0, 0, .07), 0px 3px 8px 2px rgba(0, 0, 0, .08), 0px 0px 0px 2px rgb(55 65 81 / 1)', 
+        'work-hover-dark': '0px 5px 5px -3px rgba(0, 1, 1, .1), 0px 8px 8px 1px rgba(0, 0, 0, .07), 0px 3px 8px 2px rgba(0, 0, 0, .08), 0px 0px 0px 2px rgb(55 65 81 / 1)', 
       },
     },
   },

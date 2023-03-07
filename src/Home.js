@@ -2,7 +2,7 @@
 import {
   AiFillGithub,
   AiFillLinkedin,
-  AiFillFacebook,
+  AiFillMediumSquare,
 } from "react-icons/ai";
 
 function Home() {
@@ -20,14 +20,14 @@ function Home() {
         Developer providing services for  building (and occasionally designing) exceptional digital experiences.
       </p>
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-        <a href="https://github.com/VeejayAdolf-Lemita" target="_blank">
+        <a href="https://github.com/nabalmes" target="_blank">
           <AiFillGithub />
         </a>
-        <a href="https://www.linkedin.com/in/veejay-adolf-lemita-b572b217b/" target="_blank">
+        <a href="https://www.linkedin.com/in/adrian-balmes-64990a258/" target="_blank">
           <AiFillLinkedin />
         </a>
-        <a href="https://web.facebook.com/veejay.lemita.75/" target="_blank">
-          <AiFillFacebook/>
+        <a href="https://medium.com/@neilbalmes4200" target="_blank">
+          <AiFillMediumSquare/>
         </a>
       </div>
     </div>
