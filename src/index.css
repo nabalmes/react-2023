@@ -76,7 +76,7 @@
 .about-grid-item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     min-height: 180px;
     border-radius: 8px;
     cursor: pointer;
