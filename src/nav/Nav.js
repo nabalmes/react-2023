@@ -1,8 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 import './nav.css'
-import {AiOutlineHome} from 'react-icons/ai'
-import {AiOutlineUser} from 'react-icons/ai'
+import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai'
 import {RiServiceLine} from 'react-icons/ri'
 
 
