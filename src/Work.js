@@ -4,10 +4,8 @@ import workData from './data/work/projects.json'
 
 const Work = () => {
   const data = workData.map((item, pos) => {
-    console.log(pos)
-
     return (
-      <div className="bg-project-bg-light border  border-cyan-600  rounded-lg shadow hover:shadow-work-hover-light dark:hover:shadow-work-hover-dark dark:bg-project-bg-dark dark:border-gray-700 transition-all" key={pos}>
+      <div className="bg-card-bg-light border  border-cyan-600  rounded-lg shadow hover:shadow-work-hover-light dark:hover:shadow-work-hover-dark dark:bg-card-bg-dark dark:border-gray-700 transition-all" key={pos}>
         <a href={item.link} target="_blank">
           <img className="p-4 rounded-lg w-full" src={item.thumb} alt={item.name} />
           <div className="p-4">
