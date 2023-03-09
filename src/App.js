@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsMoon, BsSun } from "react-icons/bs";
 import Logo from './assets/NAB-logo-dark.svg'
 import Nav from './nav/Nav'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -10,18 +10,19 @@ import Work from './Work'
 
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   return (
     <Router>
       <div className={darkMode ? "dark" : ""}  >
         <main className="bg-light bg-light-image dark:bg-dark  dark:bg-dark-image">
           <header className="bg-nav-dark dark:bg-nav-light backdrop-blur fixed inset-0 h-16 w-full px-8 flex items-center justify-between dark:text-white z-10">
-            <Link to='/' className="cursor-pointer">
+            <Link to='/' className="cursor-pointer select-none">
               <img className="dark:invert" src={Logo} width="60px" />
             </Link>
             <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=" cursor-pointer text-2xl" />
+              <li onClick={() => setDarkMode(!darkMode)} className='mode-logo__cont'>
+                <BsMoon style={{display: darkMode ? "none" : "block"}}  className=" cursor-pointer text-2xl" />
+                <BsSun style={{display: darkMode ? "block" : "none"}}  className=" cursor-pointer text-2xl" />
               </li>
             </ul>
           </header>
