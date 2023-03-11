@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import Me from './assets/ME.webp'
 import Congrats from './assets/graduate-me.jpg'
 import Resume from './assets/NAB-resume.pdf'
@@ -40,10 +41,15 @@ import {
 
 
 const About = () => {
+  const [isActive, setIsActive] = useState(false)
+  const handleClick = () => {
+    setIsActive(!isActive)
+  }
+  
   const MyName = "Neil Adrian C. Balmes"
 
   return (
-    <div className='pb-24 pt-24'>
+    <div className='page pb-24 pt-24'>
       <div className="flex justify-center max-[838px]:flex-col-reverse max-[838px]:items-center gap-4 mb-8">
         <div className='max-w-sm'>
           <h2 className="text-center text-3xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl md:text-left">About Me</h2>
