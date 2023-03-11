@@ -17,7 +17,7 @@ function App() {
         <main className="bg-light bg-light-image dark:bg-dark  dark:bg-dark-image">
           <header className="bg-nav-dark dark:bg-nav-light backdrop-blur fixed inset-0 h-16 w-full px-8 flex items-center justify-between dark:text-white z-10">
             <Link to='/' className="cursor-pointer select-none">
-              <img className="dark:invert" src={Logo} width="60px" />
+              <img className="dark:invert" src={Logo} width="60px" alt="mylogo"/>
             </Link>
             <ul className="flex items-center">
               <li onClick={() => setDarkMode(!darkMode)} className='mode-logo__cont'>
