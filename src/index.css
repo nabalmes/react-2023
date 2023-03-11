@@ -8,6 +8,10 @@
     padding: 8px;
 }
 
+.page>* {
+	animation: slide-up .75s forwards, fade-in .5s forwards;
+}
+
 
 /**Scrollbar css*/
 
@@ -328,6 +332,17 @@
     z-index: 2;
 }
 
+/**Keyframes*/
+
+@keyframes slide-up {
+	0% {
+		transform: translateY(100%);
+	}
+
+	100% {
+		transform: translateY(0%);
+	}
+}
 
 
 @keyframes pulse-light {
