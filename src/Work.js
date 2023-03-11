@@ -23,7 +23,7 @@ const Work = () => {
   })
 
   return (
-    <div className='pb-32 pt-32'>
+    <div className='page pb-32 pt-32'>
       <h2 className="text-center text-3xl text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Projects</h2>
       <p className="text-sm py-5 text-center leading-snug leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-l">
         Collection of projects, from websites to webapps and everything tech. Includes experiments and self-discoveries.
