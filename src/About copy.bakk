@@ -1,0 +1,138 @@
+import Me from './assets/ME.webp'
+
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiJquery,
+  SiTailwindcss,
+  SiBootstrap,
+  SiMongodb,
+  SiExpress,
+  SiRedux,
+  SiNodedotjs,
+  SiMaterialui,
+  SiReact
+} from "react-icons/si";
+
+
+const About = () => {
+  const MyName = "Neil Adrian C. Balmes"
+
+  return (
+    <div className='pb-24 pt-24'>
+      <div className="flex justify-center flex-wrap-reverse gap-4 mb-8">
+        <div className='max-w-sm'>
+          <h2 className="text-center text-3xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl md:text-left">About Me</h2>
+          <p className="text-md py-2 leading-snug leading-8 text-gray-800 dark:text-gray-200">
+            Hello! I am <span className="text-teal-500"> {MyName} </span>I'm a Front-end Developer from the Philippines, Who want to be a Fullstack Developer
+          </p>
+          <p className="text-md py-2 leading-snug leading-8 text-gray-800 dark:text-gray-200">
+            On a journey of non-stop learning new exciting things and keeping up with what's latest in tech.
+          </p>
+        </div>
+        <img src={Me} alt="" className='max-w-sm' width={'90%'} />
+      </div>
+      <div className='section-body'>
+        <div className='grid grid-cols-about-grid grid-rows-[1fr] gap-[32px]'>
+          <div className='about-grid-item about-grid--1 bg-card-bg-light text-dark dark:text-light dark:bg-card-bg-dark'>
+
+          </div>
+
+          <div className='about-grid-item about-grid--2 bg-card-bg-light text-dark dark:text-light dark:bg-card-bg-dark'>
+            <div className="card-wrapper">
+              <div className="card__header">Languages</div>
+              <div className="card__body">
+                <div className="card-grid">
+                  <div className="card-grid__item">
+                    <div>JavaScript</div>
+                  </div>
+                  <div className="card-grid__item">
+                    <div>CSS</div>
+                  </div>
+                  <div className="card-grid__item">
+                    <div>HTML</div>
+                  </div>
+                  <div className="card-grid__item">
+                    <div>Go</div>
+                  </div>
+                  <div className="card-grid__item">
+                    <div>PHP</div>
+                  </div>
+                  <div className="card-grid__item">
+                    <div>MonggoDB</div>
+                  </div>
+                  <div className="card-grid__item">
+                    <div>SQL</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='about-grid-item about-grid--3 bg-card-bg-light text-dark dark:text-light dark:bg-card-bg-dark'>
+            <div className="card-wrapper">
+              <div className="card__header">Libraries & Frameworks</div>
+              <div className="card__body">
+
+              </div>
+            </div>
+          </div>
+
+          <div className='about-grid-item about-grid--4 bg-card-bg-light text-dark dark:text-light dark:bg-card-bg-dark'>
+            <div className="card-wrapper">
+              <div className="card__header">Resume</div>
+              <div className="card__body">
+
+              </div>
+            </div>
+          </div>
+
+          <div className='about-grid-item about-grid--5 bg-card-bg-light text-dark dark:text-light dark:bg-card-bg-dark'>
+            <div className="card-wrapper">
+              <div className="card__body">
+
+              </div>
+            </div>
+          </div>
+
+          <div className='about-grid-item about-grid--6 bg-card-bg-light text-dark dark:text-light dark:bg-card-bg-dark'>
+            <div className="card-wrapper">
+              <div className="card__header">Contact</div>
+              <div className="card__body">
+
+              </div>
+            </div>
+          </div>
+
+          <div className='about-grid-item about-grid--7 bg-card-bg-light text-dark dark:text-light dark:bg-card-bg-dark'>
+            <div className="card-wrapper">
+              <div className="card__body">
+
+              </div>
+            </div>
+          </div>
+
+          <div className='about-grid-item about-grid--8 bg-card-bg-light text-dark dark:text-light dark:bg-card-bg-dark'>
+            <div className="card-wrapper">
+              <div className="card__body">
+
+              </div>
+            </div>
+          </div>
+
+          <div className='about-grid-item about-grid--9 bg-card-bg-light text-dark dark:text-light dark:bg-card-bg-dark'>
+            <div className="card-wrapper">
+              <div className="card__header">What's Next?</div>
+              <div className="card__body">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default About
