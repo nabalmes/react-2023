@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Me from './assets/ME.webp'
-import Congrats from './assets/graduate-me.jpg'
+import Congrats from './assets/graduate-me.png'
 import Resume from './assets/NAB-resume.pdf'
 import ResumeImg from './assets/resume.png'
 
