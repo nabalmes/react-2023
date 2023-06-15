@@ -107,10 +107,6 @@ const About = () => {
                     <SiPython />
                     <div>Python</div>
                   </div>
-                  <div className="card-grid__item">
-                    <SiAngular/>
-                    <div>Angular</div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -136,6 +132,10 @@ const About = () => {
                   <div className="card-grid__item">
                     <SiRedux />
                     <div>Redux</div>
+                  </div>
+                  <div className="card-grid__item">
+                    <SiAngular/>
+                    <div>Angular</div>
                   </div>
                   <div className="card-grid__item">
                     <SiJquery />
