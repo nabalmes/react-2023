@@ -32,6 +32,8 @@ import {
   SiGo,
   SiPhp,
   SiMysql,
+  SiAngular,
+  SiPython,
 
 } from "react-icons/si";
 
@@ -100,6 +102,14 @@ const About = () => {
                   <div className="card-grid__item">
                     <SiMysql />
                     <div>SQL</div>
+                  </div>
+                  <div className="card-grid__item">
+                    <SiPython />
+                    <div>Python</div>
+                  </div>
+                  <div className="card-grid__item">
+                    <SiAngular/>
+                    <div>Angular</div>
                   </div>
                 </div>
               </div>
