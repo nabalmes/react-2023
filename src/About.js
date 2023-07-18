@@ -13,7 +13,7 @@ import {
   AiFillBehanceSquare,
   AiOutlineMail,
   AiFillInstagram
-  
+
 } from "react-icons/ai";
 
 import {
@@ -47,7 +47,7 @@ const About = () => {
   const handleClick = () => {
     setIsActive(!isActive)
   }
-  
+
   const MyName = "Neil Adrian C. Balmes"
 
   return (
@@ -62,7 +62,9 @@ const About = () => {
             On a journey of non-stop learning new exciting things and keeping up with what's latest in tech.
           </p>
         </div>
-        <img src={Me} alt="" className='max-w-[20rem] rounded-lg' width={'90%'} />
+        <div>
+          <img src={Me} alt="" className='max-w-[20rem] rounded-lg' width={'90%'} />
+        </div>
       </div>
       <div className='section-body'>
         <div className='about-grid grid grid-cols-about-grid grid-rows-[1fr] gap-[32px]'>
@@ -134,7 +136,7 @@ const About = () => {
                     <div>Redux</div>
                   </div>
                   <div className="card-grid__item">
-                    <SiAngular/>
+                    <SiAngular />
                     <div>Angular</div>
                   </div>
                   <div className="card-grid__item">
@@ -170,9 +172,9 @@ const About = () => {
           </div>
 
           <div className='about-grid-item about-grid--5 bg-card-bg-light text-gray-600 dark:text-gray-400 dark:bg-card-bg-dark hover:animate-[pulse-light_1.25s_infinite] dark:hover:animate-[pulse-dark_1.25s_infinite]' data-about='call'>
-          <a href="tel:+639666640405" title="+639666640405">
-							<BsTelephone className='h-[80px] w-[80px]'/>
-						</a>
+            <a href="tel:+639666640405" title="+639666640405">
+              <BsTelephone className='h-[80px] w-[80px]' />
+            </a>
           </div>
 
           <div className='about-grid-item about-grid--6  bg-card-bg-light text-gray-600 dark:text-gray-400 dark:bg-card-bg-dark' data-about='social'>
@@ -180,10 +182,10 @@ const About = () => {
               <div className="card__header">Contact</div>
               <div className="card__body">
                 <div className="card-grid">
-                <div className="card-grid__item">
+                  <div className="card-grid__item">
                     <div className="social-inner">
                       <a className="social" href="https://github.com/nabalmes" target="_blank">
-                        <AiFillGithub/>
+                        <AiFillGithub />
                         <h5>Github</h5>
                       </a>
                     </div>
@@ -191,7 +193,7 @@ const About = () => {
                   <div className="card-grid__item">
                     <div className="social-inner">
                       <a className="social" href="mailto:neilbalmes4200@gmail.com" target="_blank">
-                        <AiOutlineMail/>
+                        <AiOutlineMail />
                         <h5>Email</h5>
                       </a>
                     </div>
@@ -199,7 +201,7 @@ const About = () => {
                   <div className="card-grid__item">
                     <div className="social-inner">
                       <a className="social" href="https://www.linkedin.com/in/adrian-balmes-64990a258/" target="_blank">
-                       <AiFillLinkedin/>
+                        <AiFillLinkedin />
                         <h5>LinkedIn</h5>
                       </a>
                     </div>
@@ -207,7 +209,7 @@ const About = () => {
                   <div className="card-grid__item">
                     <div className="social-inner">
                       <a className="social" href="https://twitter.com/Adrianbgdck" target="_blank">
-                        <AiFillTwitterSquare/>
+                        <AiFillTwitterSquare />
                         <h5>Twitter</h5>
                       </a>
                     </div>
@@ -215,7 +217,7 @@ const About = () => {
                   <div className="card-grid__item">
                     <div className="social-inner">
                       <a className="social" href="https://www.instagram.com/balmesneil/" target="_blank">
-                        <AiFillInstagram/>
+                        <AiFillInstagram />
                         <h5>Instagram</h5>
                       </a>
                     </div>
@@ -223,7 +225,7 @@ const About = () => {
                   <div className="card-grid__item">
                     <div className="social-inner">
                       <a className="social" href="https://dribbble.com/NeilAdrian" target="_blank">
-                        <AiFillDribbbleSquare/>
+                        <AiFillDribbbleSquare />
                         <h5>Dribbble</h5>
                       </a>
                     </div>
@@ -231,7 +233,7 @@ const About = () => {
                   <div className="card-grid__item">
                     <div className="social-inner">
                       <a className="social" href="https://www.behance.net/NeilAdrian" target="_blank">
-                        <AiFillBehanceSquare/>
+                        <AiFillBehanceSquare />
                         <h5>Behance</h5>
                       </a>
                     </div>
@@ -242,27 +244,27 @@ const About = () => {
           </div>
 
           <div className='about-grid-item about-grid--7 bg-card-bg-light text-gray-600 dark:text-gray-400 dark:bg-card-bg-dark' data-about='location'>
-          <div class="grid__item-inner" title="Batangas City">
-          <iframe src="https://embed.waze.com/iframe?zoom=16&lat=13.763021&lon=121.075966&ct=livemap" width="100%" height="100%" allowfullscreen></iframe>
-						</div>
+            <div class="grid__item-inner" title="Batangas City">
+              <iframe src="https://embed.waze.com/iframe?zoom=16&lat=13.763021&lon=121.075966&ct=livemap" width="100%" height="100%" allowfullscreen></iframe>
+            </div>
           </div>
 
           <div className='about-grid-item about-grid--8 bg-card-bg-light text-gray-600 dark:text-gray-400 dark:bg-card-bg-dark' data-about="dp-slider">
-          <div className="image-wrapper">
-							<div className="image" title="it's me, on drums">
-								<img src={Congrats} alt="its me graduated"  title='My dream photo'/>
-							</div>
-						</div>
+            <div className="image-wrapper">
+              <div className="image" title="it's me, on drums">
+                <img src={Congrats} alt="its me graduated" title='My dream photo' />
+              </div>
+            </div>
           </div>
 
           <div className='about-grid-item about-grid--9 bg-card-bg-light text-gray-600 dark:text-gray-400 dark:bg-card-bg-dark'>
             <div className="card-wrapper">
               <div className="card__header">What's Next?</div>
               <div class="card__body">
-								<h3 className='text-center text-3xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>Get in Touch</h3>
-								<p className="text-center mb-5 text-md py-2 leading-8 text-gray-800 dark:text-gray-200">Wanna work together for something great or just wanna say hello?</p>
-								<a href="mailto:neilbalmes4200@gmail.com" className="talk-btn h-10 px-6 font-semibold rounded-md bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white" title="neilbalmes4200@gmail.com">Let's Talk!</a>
-							</div>
+                <h3 className='text-center text-3xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl'>Get in Touch</h3>
+                <p className="text-center mb-5 text-md py-2 leading-8 text-gray-800 dark:text-gray-200">Wanna work together for something great or just wanna say hello?</p>
+                <a href="mailto:neilbalmes4200@gmail.com" className="talk-btn h-10 px-6 font-semibold rounded-md bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white" title="neilbalmes4200@gmail.com">Let's Talk!</a>
+              </div>
             </div>
           </div>
         </div>
