@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 import Logo from './assets/NAB-logo-dark.svg'
+import LogoLight from  './assets/NAB-logo-light.svg'
 import Nav from './nav/Nav'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from './Home'
@@ -15,9 +16,10 @@ function App() {
     <Router>
       <div className={darkMode ? "dark" : ""}  >
         <main className="bg-light bg-light-image dark:bg-dark  dark:bg-dark-image">
-          <header className="bg-nav-dark dark:bg-nav-light backdrop-blur fixed inset-0 h-16 w-full px-8 flex items-center justify-between dark:text-white z-10">
+          <header className="bg-nav-dark dark:bg-nav-light border-b border-[#877d7d21] backdrop-blur fixed inset-0 h-16 w-full px-8 flex items-center justify-between dark:text-white z-10">
             <Link to='/' className="cursor-pointer select-none">
-              <img className="dark:invert" src={Logo} width="60px" alt="mylogo"/>
+              <img src={Logo} width="80px" alt="mylogo"  style={{display: darkMode ? "none" : "block"}}/>
+              <img src={LogoLight} width="80px" alt="mylogo"  style={{display: darkMode ? "block" : "none"}}/>
             </Link>
             <ul className="flex items-center">
               <li onClick={() => setDarkMode(!darkMode)} className='mode-logo__cont'>
