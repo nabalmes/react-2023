@@ -62,7 +62,7 @@ const About = () => {
             On a journey of non-stop learning new exciting things and keeping up with what's latest in tech.
           </p>
         </div>
-        <div>
+        <div className='flex justify-center'>
           <img src={Me} alt="" className='max-w-[20rem] rounded-lg' width={'90%'} />
         </div>
       </div>
