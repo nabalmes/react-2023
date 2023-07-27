@@ -169,5 +169,25 @@
 			"image5"
 		],
 		"link": "https://links.idalibi.com/"
+	},
+
+	{
+		"id": 13,
+		"codename": "project13",
+		"name": "24 / 7 virtual clone",
+		"alias": "24 / 7 virtual clone",
+		"description": "website for virtual assistant",
+		"tag": "web",
+		"year": "2023",
+		"icon": "icon9",
+		"thumb": "/work/project14.webp",
+		"images": [
+			"image1",
+			"image2",
+			"image3",
+			"image4",
+			"image5"
+		],
+		"link": "https://24x7-clone-website.vercel.app/"
 	}
 ]
