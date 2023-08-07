@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 import Logo from './assets/NAB-logo-dark.svg'
 import LogoLight from  './assets/NAB-logo-light.svg'
@@ -11,7 +11,26 @@ import Work from './Work'
 
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(
+    localStorage.getItem('darkMode') === 'false'
+  );
+
+  const handleDarkModeToggle = () => {
+    setDarkMode((prevDarkMode) => {
+      const newDarkMode = !prevDarkMode;
+      localStorage.setItem('darkMode', String(newDarkMode));
+      return newDarkMode;
+    });
+  };
+
+  useEffect(() => {
+    // Get the darkMode value from localStorage and update the state.
+    const storedDarkMode = localStorage.getItem('darkMode');
+    if (storedDarkMode !== null) {
+      setDarkMode(storedDarkMode === 'true');
+    }
+  }, []);
+
   return (
     <Router>
       <div className={darkMode ? "dark" : ""}  >
@@ -22,7 +41,7 @@ function App() {
               <img src={LogoLight} width="80px" alt="mylogo"  style={{display: darkMode ? "block" : "none"}}/>
             </Link>
             <ul className="flex items-center">
-              <li onClick={() => setDarkMode(!darkMode)} className='mode-logo__cont'>
+              <li onClick={() => handleDarkModeToggle(!darkMode)} className='mode-logo__cont'>
                 <BsMoon style={{display: darkMode ? "none" : "block"}}  className=" cursor-pointer text-2xl" />
                 <BsSun style={{display: darkMode ? "block" : "none"}}  className=" cursor-pointer text-2xl" />
               </li>
