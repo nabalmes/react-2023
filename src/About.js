@@ -56,7 +56,7 @@ const About = () => {
         <div className='max-w-sm'>
           <h2 className="text-center text-3xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl md:text-left">About Me</h2>
           <p className="text-justify text-md py-2 leading-snug leading-8 text-gray-800 dark:text-gray-200">
-            Hello! I am <span className="text-teal-500"> {MyName} </span>I'm a Front-end Developer from the Philippines, Who want to be a Fullstack Developer
+            Hello! I am <span className="text-teal-500"> {MyName} </span>As a passionate and dedicated Full-Stack Developer based in the Philippines, I bring a wealth of experience and a diverse skill set to every project I undertake. My journey in the tech industry has equipped me with a robust understanding of both front-end and back-end development, allowing me to build comprehensive and dynamic web applications.
           </p>
           <p className="text-justify text-md py-2 leading-snug leading-8 text-gray-800 dark:text-gray-200">
             On a journey of non-stop learning new exciting things and keeping up with what's latest in tech.
