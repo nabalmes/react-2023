@@ -164,7 +164,7 @@ const About = () => {
             <div className="card-wrapper">
               <div className="card__header">Resume</div>
               <div className="card__body">
-                <a href={Resume} target="_blank" rel="noopener noreferrer" title="Click to view">
+                <a href={Resume} target="_blank" rel="noopener noreferrer" title="VIEW RESUME">
                   <img src={ResumeImg} alt="resume Image" />
                 </a>
               </div>
