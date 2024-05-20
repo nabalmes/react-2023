@@ -3,7 +3,7 @@ import React from "react"
 
 function Home() {
   const myName = "Neil Adrian Balmes"
-  const Profession = "Front-end Developer"
+  const Profession = "Full-stack Developer"
   return (
     <div className="page h-screen w-full flex justify-center items-center">
       <div className="text-center p-5 select-none">
