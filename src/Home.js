@@ -14,7 +14,7 @@ function Home() {
           {Profession}
         </h3>
         <p className="text-sm py-5 leading-5 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-          Developer providing services for  building (and occasionally designing) exceptional digital experiences.
+          Developer providing services for building websites and applications for various platforms.
         </p>
       </div>
     </div>
