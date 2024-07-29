@@ -190,4 +190,26 @@
 		],
 		"link": "https://24x7-clone-website.vercel.app/"
 	}
+
+	,
+
+	{
+		"id": 14,
+		"codename": "project14",
+		"name": "COLA App",
+		"alias": "COLA App",
+		"description": "System for SIDC employee cost of leaving allowance",
+		"tag": "web",
+		"year": "2023",
+		"icon": "icon9",
+		"thumb": "/work/project15.webp",
+		"images": [
+			"image1",
+			"image2",
+			"image3",
+			"image4",
+			"image5"
+		],
+		"link": "https://cola.gateway.sidc.coop/cola-app/"
+	}
 ]
